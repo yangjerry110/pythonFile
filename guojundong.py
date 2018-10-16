@@ -131,7 +131,7 @@ for i in range(itemLen):
         print(e)
     itemArrayset.append(itemSet)
 
-for i in range(2):
+for i in range(1046):
     driver.execute_script("$('.active').next().children().click()")
 
     html = driver.execute_script("return document.documentElement.outerHTML")
